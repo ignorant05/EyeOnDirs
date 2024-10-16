@@ -22,6 +22,27 @@ A powerful directory enumeration tool designed to discover hidden directories an
 - **Detailed Output:** Results displayed in a formatted table.
 - **Usage Logging:** Log important events and errors.
 
+<h1>Installation</h1>
+
+```bash
+git clone https://github.com/yourusername/directory-enumerator.git
+cd directory-enumerator
+
+## Usage
+
+```bash
+python3 directory_enumerator.py -url <URL> -wordlist <path_to_wordlist> [-t <timeout>] [-threads <number_of_threads>] [--recursive] [-e <extensions>] [-sd]
+
+## Parameters:
+-url: The target URL or IP address (e.g., http://example.com).
+-wordlist: Path to the wordlist file containing directories/files to check.
+-t: Timeout for each request (default: 10 seconds).
+-threads: Number of threads to use (default: 100).
+--recursive or -r: Enables recursive directory searching.
+-e or --extention: Comma-separated list of file extensions to look for.
+-sd or --sub-domains: Enables sub-domain enumeration.
+
+
 ## Requirements
 
 - Python 3.x
