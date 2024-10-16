@@ -44,9 +44,9 @@ A powerful directory enumeration tool designed to discover hidden directories an
 
 You can install the required libraries using pip:
 
-```bash
+\```
 pip install requests prettytable tqdm
-
+\'''
 
 ## Installation
 
