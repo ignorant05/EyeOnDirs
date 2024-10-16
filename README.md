@@ -22,14 +22,8 @@ A powerful directory enumeration tool designed to discover hidden directories an
 - **Detailed Output:** Results displayed in a formatted table.
 - **Usage Logging:** Log important events and errors.
 
-```markdown
-<h1>Installation</h1>
 
-To install the required libraries, run the following commands:
 
-```bash
-git clone https://github.com/yourusername/directory-enumerator.git
-cd directory-enumerator
 
 ## Parameters:
 -url: The target URL or IP address (e.g., http://example.com).
@@ -52,3 +46,12 @@ You can install the required libraries using pip:
 
 ```bash
 pip install requests prettytable tqdm
+
+
+## Installation
+
+To install the required libraries, run the following commands:
+
+```bash
+git clone https://github.com/yourusername/directory-enumerator.git
+cd directory-enumerator
