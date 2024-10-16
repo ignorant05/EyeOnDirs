@@ -22,16 +22,14 @@ A powerful directory enumeration tool designed to discover hidden directories an
 - **Detailed Output:** Results displayed in a formatted table.
 - **Usage Logging:** Log important events and errors.
 
+```markdown
 <h1>Installation</h1>
+
+To install the required libraries, run the following commands:
 
 ```bash
 git clone https://github.com/yourusername/directory-enumerator.git
 cd directory-enumerator
-
-## Usage
-
-```bash
-python3 directory_enumerator.py -url <URL> -wordlist <path_to_wordlist> [-t <timeout>] [-threads <number_of_threads>] [--recursive] [-e <extensions>] [-sd]
 
 ## Parameters:
 -url: The target URL or IP address (e.g., http://example.com).
